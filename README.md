@@ -1,0 +1,2 @@
+# Software_Repository_Mining
+デザプロの際にデータ生成・分析用に書いたコード
