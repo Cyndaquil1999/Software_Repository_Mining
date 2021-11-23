@@ -6,7 +6,7 @@ df = pd.read_csv("Dataset_JP_Perf1200.csv")
 
 df0 = df[df["type"] == 0]
 
-#パラメータはRating, Ave_diff, Attending, RPS,  Total_AC_count, Ave_points
+#パラメータはRating, Ave_diff, RPS,  Total_AC_count, Ave_points
 X = "Total_AC_count"
 Y = "RPS"
 
