@@ -59,7 +59,7 @@ def Username_Scraping():
 
     #filename
     S = "Scraping.csv"
-    with open("C:/Users/mcah8/OneDrive/デスクトップ/大学/授業/B3 後期/デザプロ/ソフトウェアリポジトリマイニング/{}".format(S),"w", newline="") as f:
+    with open("パスをここに入れる{}".format(S),"w", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["User_id", "Rating"])
         for i in range(len(User_list)):
