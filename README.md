@@ -1,9 +1,7 @@
 # SoftwareRepositoryMining
 
-### B3実験の際にデータ生成・分析用に書いたコード
-
-
-
+B3後期実験前半テーマ「ソフトウェアリポジトリマイニング」の自主テーマ「AtCoderで初心者がレートを高めるには？」において
+AtCoderのユーザー情報を取得する際に書いたPythonファイルをまとめる。
 ## 目次
 
 #### 1. Data_Generate.py
