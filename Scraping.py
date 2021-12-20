@@ -4,6 +4,7 @@ import csv
 import re
 import pandas as pd
 
+#レーティング2000以上のユーザーリストを返す関数
 def Rating_Scraping(n,url):
     html = request.urlopen(url)
     soup = BeautifulSoup(html, "html.parser")
@@ -25,6 +26,7 @@ def Rating_Scraping(n,url):
 
     return Rating
 
+#Usernameを取得する。urlのCountryのところより国別の取得もできる
 def Username_Scraping():
     User_list = [["username", 0] for i in range(1500)]
     User_cnt = 0
