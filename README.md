@@ -6,7 +6,7 @@ AtCoderのユーザー情報を取得する際に書いたPythonファイルを�
 
 #### 1. Data_Generate.py
 - ユーザー情報を取得したcsvファイル情報を取得して各パラメータを取得してcsvファイルにする
-- 
+
 #### 2. Scraping.py
 - Data_Generate.pyで生成したcsvにユーザー情報を追加してcsvにする
 
